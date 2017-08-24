@@ -1,0 +1,23 @@
+{
+  "name": "taskman",
+  "version": "1.0.0",
+  "description": "Taskman - Simplest tool in the world to manage Lifecycle of Task - Create, Assign, Complete, etc..",
+  "main": "index.js",
+  "keywords": [
+    "taskman"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/lab --assert should"
+  },
+  "author": "3rd Group",
+  "dependencies": {
+    "boom": "^2.6.0",
+    "hapi": "~8.0.0",
+    "joi": "^5.0.1",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "lab": "^5.0.2",
+    "should": "^4.3.0"
+  }
+}
